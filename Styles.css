@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --orange:#ffa500;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background: var(--orange);
+    color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior:smooth;
+}
+
+section{
+    padding:2rem 9%;
+
+
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--orange);
+    color: #fff;
+    padding: .8rem 3rem;
+    border:.2rem solid var(--orange);
+    cursor:pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+  background-color: rgba(255, 165, 0, 0.2);
+  /* border:#fff; */
+  color: var(--orange);
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #b3d0da99;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+
+header .logo{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase; 
+  text-decoration: none;
+}
+header .logo span{
+    color: var(--orange);
+}
+header .navbar a{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 .8rem;
+    text-decoration: none;
+
+}
+header .navbar a:hover{
+    color:var(--orange)
+}
+
+header .icons i{
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+header .icons i:hover{
+    color:var(--orange);
+}
+
+.login-form-container{
+    position: fixed;
+    top: -120%;
+    left: 0;
+    z-index: 10000;
+    min-height:100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form-container.active{
+    top:0;
+}
+.login-form-container form{
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    width: 50rem;
+
+}
+.login-form-container form h3{
+    font-size: 3rem;
+    color:#ffa500;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.login-form-container form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #46330e;
+    margin: .6rem 0;
+    border: .1rem solid rgba(0, 0, 0, 0.3);
+    text-transform: none;
+
+
+}
+
+.login-form-container form .box:focus{
+    border-color: var(--orange);
+     
+}
+
+.login-form-container form #remember{
+    margin: 2rem 0;
+}
+.login-form-container form label{
+    font-size: 1.5rem;
+
+}
+
+.login-form-container form .btn{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.login-form-container form p{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: #666;
+  
+}
+.login-form-container form p a{
+    color: var(--orange);
+    text-decoration: none;
+}
+.login-form-container form p a:hover{
+    color: #333;
+    text-decoration: unset;
+    text-decoration: underline;
+}
+
+.login-form-container #form-close{
+   position: absolute;
+
+    top: 1.8rem;
+    right: 3rem;
+    /* top:6rem;
+    right:33rem; */
+    font-size: 4rem;
+    color:#fff;
+
+    cursor: pointer;
+}
+
+.login-form-container #form-close:hover{
+    color: var(--orange);
+}
+
+#menu-bar{
+    color: #fff;
+    border:.1rem solid #fff;
+    font-size:3rem;
+    padding:.5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+}
+
+.home .content{
+    text-align: center;
+
+}
+.home .content h3{
+    font-size: 4.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0.3rem .5rem rgba(0, 0, 0, 0.954);    
+}
+
+.home .content p{
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* .search-bar{
+    display: inline-block;
+} */
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    height:50px;
+    width: 100%;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.247);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin-top: 15px;
+} 
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+    color: rgb(255, 255, 255);
+}
+.search-bar input::placeholder{
+    color: #ffffff;
+}
+.search-bar i{
+    color: #fff;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    color: #fff ;
+    border: 0;
+    margin-right: -13px;
+    border-radius: 50%;
+    background-color: #c1c1c138;
+    
+}
+
+.search-bar #search-btn:hover{
+    color: var(--orange);
+}
+
+.home .video-container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .controls{
+    padding: 1rem;
+    border-radius: 5rem ;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top:10rem;
+}
+
+.home .controls .vid-btn{
+    height: 22rem;
+    width: 22rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: #2e1717;
+    cursor:pointer;
+    margin: 5rem 5.5rem;
+    
+}
+.home .controls .vid-btn.active{
+    background-color: var(--orange);
+}
+
+
+
+
+/* media queries */
+@media(max-width:1000px){
+   html{ font-size: 55%;
+   }
+}
+@media(max-width:991px){
+    header{
+        padding: 2rem;
+    }
+}
+@media(max-width:768px){
+    #menu-bar{
+        display: initial;
+        top: 100%;
+        right: 0;
+        left: 0;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        border-top: .1rem solid rgba(255, 255, 255 , .2) ;
+        padding: 1rem 2rem;
+        clip-path: polygon(0 0,100% 0 , 100% 0 , 0 0 );
+    }
+    header .navbar.active{
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+    }
+    header .navbar a{
+        display: block;
+        border-radius: .5rem;
+        padding: 1rem;
+        margin: 1.5rem 0;
+        background: #222;
+    }
+}
