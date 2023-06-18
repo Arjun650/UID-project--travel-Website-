@@ -331,15 +331,15 @@ header .icons i:hover{
     justify-content: center;
     font-size: 3rem;
     font-weight: 400;
-    /* color: #fff; */
+    color: #fff;
     margin: 15px;
 }
+
 
 .how-it-works .howitworks .secbox{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .how-it-works .howitworks .secbox .imagebox{
@@ -348,7 +348,7 @@ header .icons i:hover{
     height: 250px;
     padding-top: 23px;
     border-radius: 10px;
-    background-color: #a72b2b;
+    background-color: #ffff6e;
 }
 
 .how-it-works .howitworks .secbox img{
@@ -356,6 +356,8 @@ header .icons i:hover{
     margin: 0 25px;
     border-radius: 5px;
 }
+
+
 
 
 
