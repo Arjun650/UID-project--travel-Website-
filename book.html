@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="book.css">
     <title>Travelo:ESTD.2023</title>
+    <style>
+        body{
+            overflow: hidden;
+            background: rgb(255,190,68);
+            background: linear-gradient(90deg, rgba(255,190,68,1) 0%, rgba(255,231,67,1) 50%, rgba(255,190,68,1) 100%);
+        }
+    </style>
 </head>
 <body> 
     <!-- header section -->
@@ -42,7 +50,39 @@
         </form>
     </div>
 
-    
+    <!-- book section start  -->
+    <section class="book" id="book">
+            <h1>BOOK NOW</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="/media_content/4677543_2483403-removebg-preview.png" alt="">
+                </div>
+                <form action="">
+                    <div class="inputBox">
+                        <h3>Where To</h3>
+                        <input type="text" placeholder="place name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>How many</h3>
+                        <input type="number" placeholder="number" >
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date" >
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date" >
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+
+            </div>
+    </section>
+<!-- book section ends  -->
 
 
     
