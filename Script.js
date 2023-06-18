@@ -8,12 +8,19 @@ let navbar=document.querySelector('.navbar')
 formBtn.addEventListener('click' , ()=>{
     loginForm.classList.add('active');
 })
+
+
+formClose.addEventListener('click' , ()=>{
+    loginForm.classList.remove('active');
+}); 
+
 menu.addEventListener('click' , ()=>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 })
 
 
-formClose.addEventListener('click' , ()=>{
-    loginForm.classList.remove('active');
-}); 
+
+
+
+

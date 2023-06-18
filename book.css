@@ -1,5 +1,5 @@
 *{
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0;
     padding: 0;
 
@@ -17,16 +17,16 @@
 }
 
 .book .row{
-    margin: -50px;
+    margin: -20px;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     align-items: center;
 }
 
-.book .row .image{
+/* .book .row .image{
     flex: 1 1 40rem;
-}
+} */
 
 .book .row .image img{
     width: 100%;
@@ -41,9 +41,14 @@
 
 .book .row form .inputBox{
     padding: .3rem 0;
+    
 
 }
-
+.book .row form .buttonbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .book .row form .inputBox input{
     width: 100%;
     padding: .7rem;
@@ -51,6 +56,7 @@
     font-size: 1.6rem;
     color: #333;
     text-transform: none;
+    
 }
 
 .book .row form .inputBox h3{
