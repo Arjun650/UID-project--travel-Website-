@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    margin-top: 100px;
+}
 input{
     display: none;
 }
@@ -22,7 +25,7 @@ h1::before{
     position: absolute;
     width: 100px;
     height: 3px;
-    background-color: crimson;
+    background-color: orange;
     bottom: -8px;
     left: 50%;
     transform: translateX(-50%);
@@ -40,7 +43,7 @@ h1::before{
     }
 }
 .top-content{
-    background-color: rgb(243,243,243);
+    background-color: rgb(255, 185, 56);
     width: 90%;
     margin: 0 auto 20px auto;
     height: 60px;
@@ -51,10 +54,13 @@ h1::before{
 }
 h3{
     height: 100%;
-    background-color: rgb(221, 221 , 221);
+    border-radius: 5px;
+    background-color: rgb(230, 150, 0);
     line-height: 60px;
     padding: 0 50px;
     color: white;
+    font-size: 20px;
+    font-weight: 400;
 }
 label{
     display: inline-block;
@@ -62,12 +68,12 @@ label{
     margin: 0 20px;
     line-height: 60px;
     font-size: 18px;
-    color: gray;
+    color: white;
     cursor: pointer;
     transition: color 1s;
 }
 label:hover{
-    color: black;
+    color: gray;
 }
 .photo-gallery{
     width: 90%;

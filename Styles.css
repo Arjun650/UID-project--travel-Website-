@@ -137,6 +137,8 @@ header .icons i:hover{
     text-transform: uppercase;
     text-align: center;
     padding: 1rem 0;
+
+    
 }
 
 .login-form-container form .box{
@@ -232,7 +234,8 @@ header .icons i:hover{
     font-size: 4.5rem;
     color: #fff;
     text-transform: uppercase;
-    text-shadow: 0 0.3rem .5rem rgba(0, 0, 0, 0.954);    
+    text-shadow: 0 0.3rem .5rem rgba(0, 0, 0, 0.954);  
+      
 }
 
 .home .content p{
@@ -325,11 +328,15 @@ header .icons i:hover{
 .home .controls .vid-btn.active{
     background-color: var(--orange);
 }
+/* .how-it-works h3{
+    border-bottom: 5px solid orange;
 
+} */
 .how-it-works{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .how-it-works .howitworks{
 
