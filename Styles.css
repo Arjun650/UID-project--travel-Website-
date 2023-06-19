@@ -65,6 +65,16 @@ header{
     padding: 2rem 9%;
 }
 
+#homeNav{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: var(--orange);
+    padding:.3rem .7rem;
+}
+
+#homeNav:hover{
+    color:rgb(255, 145, 0);
+}
 
 header .logo{
   font-size: 2.5rem;
@@ -326,7 +336,7 @@ header .icons i:hover{
     width: 100%;
     max-width: 900px;
     height: 350px;
-    background-color: #ffa600;
+    /* background-color: #ffa600; */
     position: relative;
    
 }
@@ -336,7 +346,7 @@ header .icons i:hover{
     justify-content: center;
     font-size: 3rem;
     font-weight: 400;
-    color: #fff;
+    color: var(--orange);
     margin: 15px;
 }
 
@@ -362,6 +372,10 @@ header .icons i:hover{
     border-radius: 5px;
 }
 
+.packages{
+    background-color: #ffeecb;
+}
+
 .packages h1{
     display: flex;
     justify-content: center;
@@ -378,7 +392,7 @@ header .icons i:hover{
 }
 
 .packages .box-container .box{
-    flex: 1 1 30rem;
+    flex: 30rem;
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0 1rem 2rem rgba(0 , 0 , 0 , 0.1);
@@ -469,7 +483,9 @@ header .icons i:hover{
 .service .box-container .box:hover{
     box-shadow: 0 1rem 2rem rgba(0 , 0 , 0 , 0.1);
 }
-
+.gallary{
+    background-color: #ffeecb;
+}
 .gallary .heading{
     display: flex;
     justify-content: center;
@@ -549,7 +565,7 @@ header .icons i:hover{
     border-radius: .5rem;
     text-align: center;
     box-shadow: 0 1rem 2rem rgba(0 , 0 , 0 , 0.1);
-    border-radius: .5rem;
+   
 }
 
 .review .box-container .box:hover {
@@ -557,7 +573,7 @@ header .icons i:hover{
     border-radius: .5rem;
     text-align: center;
     box-shadow: 2rem 2rem 3rem rgba(0 , 0 , 0 , 0.2);
-    border-radius: .5rem;
+   
 }
 
 .review .box-container .box img{
@@ -596,20 +612,162 @@ header .icons i:hover{
     text-decoration: none;
 }
 
+.contact{
+    background-color: #ffeecb;
+}
+
+.contact h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--orange);
+    margin: 15px;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contact .row .image{
+    flex:40rem;
+}
+
+.contact .row img{
+    width: 100%;
+}
+
+.contact .row form{
+    flex:50rem;
+    padding: 2rem;
+    box-shadow: rgba(0 , 0 , 0 , 0.1);
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contact .row form .inputBox input , .contact .row form textarea{
+    width: 49%;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.contact .row form textarea{
+    width: 100%;
+    resize: none;
+}
+
+.contact .row .submitbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .findus{
+   
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contact .findus .boxe{
+    flex: 50rem;
+    background-color: #222;
+    object-fit: cover;
+    height: 40rem;
+    border-radius: .7rem;
+    
+}
+
+/* for map */
 
 
+/* .contact .findus .boxe img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: .7rem;
+}
+.contact .findus .boxe iframe{
+    max-width: 100%;
+    height:40rem ;
+    object-fit: fill;
+    overflow: hidden;
+    border-left-radius: .7rem;
+} */
 
+/* for map ends  */
 
+.footer{
+    background: #ffa500;
+}
 
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
+.footer .box-container .box{
+    padding: 1rem;
+    flex: 20rem ;
+}
 
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding: .7rem 0;
+    color: #fff;
 
+}
 
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #eee;
+    
+}
 
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #eee;
+}
 
+.footer .box-container .box a:hover{
+    display: block;
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #f45a00;
+    
+}
 
+.footer .credit{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #222;
+    border-top: 1px solid #6e6e6e;
+}
 
-
+.footer .credit span{
+    color: black;
+    font-weight: 700;
+    
+}
 
 
 /* media queries */
