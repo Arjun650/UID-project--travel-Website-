@@ -21,6 +21,22 @@ menu.addEventListener('click' , ()=>{
 
 
 
+function validate(){
+    var username = document.querySelector("#emaill");
+    var password = document.querySelector("#pass");
+
+    if(username.value == "" || password.value == ""){
+        alert("please fill the empty space")
+        // var emp = document.querySelector("#noempty").innerHTML="please fill the empty space"
+    }
+    else{
+         
+    }
+}
+
+
+
+
 
 
 

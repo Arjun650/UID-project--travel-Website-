@@ -173,7 +173,7 @@ header .icons i:hover{
 
 .login-form-container form .btn{
     display: block;
-    width: 40%;
+    width: 100%;
     letter-spacing: 3px;
     margin-left:auto;
     margin-right:auto;
@@ -186,6 +186,11 @@ header .icons i:hover{
     color: #666;
   
 }
+
+#noempty{
+    color: red;
+}
+
 .login-form-container form p a{
     color: var(--orange);
     text-decoration: none;
@@ -450,6 +455,7 @@ header .icons i:hover{
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
+    margin-top: 20px;
 }
 .packages .box-container .box .button a{
     text-decoration: none;

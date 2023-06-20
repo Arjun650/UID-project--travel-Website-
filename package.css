@@ -22,6 +22,7 @@
 .totpackages .box-container{
     display: flex;
     width: 100%;
+    border-radius: 5px;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -31,10 +32,12 @@
 .totpackages .box-container .box{
     gap: 10px;
    height: 250px;
+   min-width: 499px;
    max-width: 500px;
    margin:10px auto;
    display: flex;
    box-shadow: 0 1rem 2rem rgba(0 , 0 , 0 , 0.1);
+   border-radius: 5px;
    
 }
 
@@ -51,7 +54,10 @@
 .totpackages .box-container .box img{
  display: block;
  max-width: 250px;
+ object-fit: cover;
  /* margin-right: 10px; */
+ border-top-left-radius:5px ;
+ border-bottom-left-radius:5px ;
  
 }
 
@@ -78,7 +84,7 @@
 .totpackages .box-container .box .content p{
     font-size: 1.7rem;
     color: #666;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 .totpackages .box-container .box .button a{
@@ -91,4 +97,16 @@
     display: flex;
     font-size: 1.5rem;
     color: var(--orange);
+}
+
+.totpackages .box-container .box .stars1 {
+    display: flex;
+    font-size: 1.5rem;
+    color: rgb(164, 107, 0);
+    
+}
+
+.totpackages .box-container .box .stars1 i{
+    margin: 3px;
+    
 }
