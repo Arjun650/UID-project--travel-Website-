@@ -173,7 +173,10 @@ header .icons i:hover{
 
 .login-form-container form .btn{
     display: block;
-    width: 100%;
+    width: 40%;
+    letter-spacing: 3px;
+    margin-left:auto;
+    margin-right:auto;
     margin-bottom: 15px;
 }
 
