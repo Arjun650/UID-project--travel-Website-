@@ -1,0 +1,94 @@
+
+/* .top img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+} */
+
+.totpackages h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--orange);
+    margin: 15px;
+}
+
+.totpackages .box-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.totpackages .box-container .box{
+    gap: 10px;
+   height: 250px;
+   max-width: 500px;
+   margin:10px auto;
+   display: flex;
+   box-shadow: 0 1rem 2rem rgba(0 , 0 , 0 , 0.1);
+   
+}
+
+.totpackages .box-container .box:hover{
+    gap: 10px;
+   height: 250px;
+   max-width: 500px;
+   margin:10px auto;
+   display: flex;
+   box-shadow: 0 1rem 2rem rgba(1 , 1 , 1 , 0.3);
+}
+
+
+.totpackages .box-container .box img{
+ display: block;
+ max-width: 250px;
+ /* margin-right: 10px; */
+ 
+}
+
+.totpackages .box-container .box .content{
+  display: flex;
+  flex-direction: column;
+  padding: .7rem;   
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.totpackages .box-container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+.totpackages .box-container .box .content h3 i{
+    color: var(--orange);
+    margin-right: 1.5rem;
+}
+
+
+
+.totpackages .box-container .box .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.totpackages .box-container .box .button a{
+    /* padding: 0; */
+    /* height: 50px; */
+    text-decoration: none;
+    
+}
+.totpackages .box-container .box .stars{
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--orange);
+}

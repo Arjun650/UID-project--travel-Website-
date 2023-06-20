@@ -60,20 +60,20 @@ header{
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
     z-index: 1;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     padding: 2rem 9%;
 }
 
 #homeNav{
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 20px;
+    /* border-radius: 30px; */
     background-color: var(--orange);
-    padding:.3rem .7rem;
+    padding:.4rem .8rem;
 }
 
 #homeNav:hover{
-    color:rgb(255, 145, 0);
+    color:rgb(173, 98, 0);
 }
 
 header .logo{
@@ -90,6 +90,7 @@ header .navbar a{
     color: #fff;
     font-size: 2rem;
     margin: 0 .8rem;
+    /* padding: 0 0.8rem; */
     text-decoration: none;
 
 }
@@ -111,8 +112,9 @@ header .icons i:hover{
 .login-form-container{
     position: fixed;
     top: -120%;
+    /* top: 0; */
     left: 0;
-    z-index: 10000;
+    z-index: 1;
     min-height:100vh;
     width: 100%;
     background: rgba(0, 0, 0, .7);
@@ -155,6 +157,9 @@ header .icons i:hover{
 
 .login-form-container form .box:focus{
     border-color: var(--orange);
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.15); */
+    box-shadow: 0 2px 4px var(--orange);
+
      
 }
 
@@ -222,11 +227,12 @@ header .icons i:hover{
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    position: relative;
+    position: relative; 
     z-index: 0;
 }
 
 .home .content{
+    /* position: absolute; */
     text-align: center;
 
 }
@@ -307,15 +313,15 @@ header .icons i:hover{
     object-fit: cover;
 }
 
-.home .controls{
+/* .home .controls{
     padding: 1rem;
     border-radius: 5rem ;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top:10rem;
-}
+} */
 
-.home .controls .vid-btn{
+/* .home .controls .vid-btn{
     height: 22rem;
     width: 22rem;
     display: inline-block;
@@ -324,10 +330,10 @@ header .icons i:hover{
     cursor:pointer;
     margin: 5rem 5.5rem;
     
-}
-.home .controls .vid-btn.active{
+} */
+/* .home .controls .vid-btn.active{
     background-color: var(--orange);
-}
+} */
 /* .how-it-works h3{
     border-bottom: 5px solid orange;
 
