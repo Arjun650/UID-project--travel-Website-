@@ -2,23 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="icon" type="image/x-icon" href="/media_content/gall1.jpg">
-    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="Styles.css" >
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <title>Travelo:ESTD.2023</title>
   </head>
   <body>
+    <!-- loading section starts here  -->
+    <!-- <div id="preloader"></div> -->
+    <!-- loading section ends here  -->
     <!-- header section -->
     <header>
       <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
       <a href="#" class="logo"> <span>T</span>RAVELO</a>
 
       <nav class="navbar">
-        <a href="/index.html"  id="homeNav">HOME</a>
+        <a href="/index.html"  id="homeNav" style="color: orange;"><i class="fa-solid fa-house"></i></a>
         <a href="/book.html">book</a>
         <a href="/packages.html">packages</a>
         <a href="#services">services</a>
@@ -35,10 +39,10 @@
       <i class="fa-sharp fa-solid fa-circle-xmark" id="form-close"></i>
       <form action="#">
         <h3>login</h3>
-        <input type="email" class="box" id="emaill" placeholder="Your Email" />
-        <input type="password" class="box" id="pass" placeholder="Your Password" />
+        <input type="email" class="box" id="emaill" onclick="validat()" placeholder="Your Email" />
+        <input type="password" class="box" id="pass" onclick="validat()" placeholder="Your Password" />
         <p id="noempty"></p>
-        <input type="Submit" value="login now" class="btn" onclick="validate()" />
+        <input type="Submit" value="login now" class="btn" onclick="validate()" id="buttonLogin" />
         <input type="checkbox" id="remember" />
         <label for="remember">remember me</label>
         <p>forgot password? <a href="#">click here</a></p>
@@ -80,6 +84,7 @@
           muted
           loop
         ></video>
+        <!-- <video src="/media_content/vid2.mp4" autoplay muted loop></video> -->
       </div>
     </section>
     <!-- how it works starts -->
@@ -499,8 +504,11 @@
           <h1 class="credit">created by <span>team travelo</span> | all rights reserved!</h1>
     </section>
     <!-- footer section ends here  -->
-
+  
 
     <script src="Script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
   </body>
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Styles.css">
+    <style>
+        *{
+            background: #ded4e8;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: uppercase;
+            overflow: hidden;
+            
+        }
+        .response{
+            margin-top: 2rem;
+            height: 100vh;
+        }
+        .response h1{
+            font-size: 4rem;
+            text-align: center;
+            color: #c7395f;
+        }
+        .response .link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .response p{
+            font-size: 3rem;
+            text-align: center;
+            color: #a97c00;
+        }
+    </style>
+</head>
+<body>
+    <div class="response">
+        <h1>Thank You For choosing us</h1>
+        <p>we'll get back to you soon</p>
+       <div class="link">
+        <h1>Go To Home Page</h1>
+        <!-- <a href="/index.html" class="btn"></a> -->
+       <input type="button" class="btn" value="Go To Home" id="gotohome" onclick="gotohome()">
+       </div>
+    </div>
+    <script>
+        function gotohome(){
+    window.open("index.html" , "_self")
+}
+    </script>
+</body>
+</html>

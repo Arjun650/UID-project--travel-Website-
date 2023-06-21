@@ -20,20 +20,59 @@ menu.addEventListener('click' , ()=>{
 })
 
 
+function validat(){
+
+ document.querySelector("#noempty").innerHTML="";
+}
+
 
 function validate(){
     var username = document.querySelector("#emaill");
     var password = document.querySelector("#pass");
 
     if(username.value == "" || password.value == ""){
-        alert("please fill the empty space")
-        // var emp = document.querySelector("#noempty").innerHTML="please fill the empty space"
+        // alert("please fill the empty space")
+        var emp = document.querySelector("#noempty").innerHTML="! please fill the empty space"
     }
     else{
-         
+        // var buttonlogin = document.querySelector("#buttonLogin")
+         window.open("index.html" , "_self");
+        // loginForm.classList.remove('active');
+        
     }
 }
 
+
+// validation for booking system 
+
+
+
+function novalidate(){
+
+    document.querySelector("#message").innerHTML="";
+   }
+
+   function bookvalidate(){
+    var placename = document.querySelector("#placeName");
+    var number = document.querySelector("#num")
+    var date = document.querySelector("#date2")
+    var date1 = document.querySelector("#date1")
+
+    if(placename.value == "" || number.value == "" || date.value=="" || date1.value==""){
+        // alert("please fill the empty space")
+        
+        document.querySelector("#message").innerHTML="! please fill the empty space"
+    }
+    else{
+         window.open("response.html" , "_self")
+
+    }
+}
+
+
+// validation for booking system ends here 
+
+// return to home page 
 
 
 

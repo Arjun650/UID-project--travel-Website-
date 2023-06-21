@@ -66,14 +66,15 @@ header{
 }
 
 #homeNav{
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
     /* border-radius: 30px; */
-    background-color: var(--orange);
+    /* background-color: var(--orange); */
     padding:.4rem .8rem;
+    /* font-size: 3rem; */
 }
 
 #homeNav:hover{
-    color:rgb(173, 98, 0);
+    color:var(--orange); 
 }
 
 header .logo{
@@ -234,7 +235,7 @@ header .icons i:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: column;
+    flex-flow: column;  
     position: relative; 
     z-index: 0;
 }
@@ -791,6 +792,16 @@ header .icons i:hover{
     
 }
 
+
+/* #preloader{
+    background: aliceblue url("/media_content/loading.gif") no-repeat center center;
+    background-size: 10%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+} */
 
 /* media queries */
 @media(max-width:1000px){

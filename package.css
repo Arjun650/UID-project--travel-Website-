@@ -1,5 +1,24 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+.top{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;  
+    position: relative; 
+    z-index: 0;
+}
 
-/* .top img{
+/* .top #topimg{
     position: absolute;
     top: 0;
     left: 0;
@@ -7,9 +26,22 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    position: fixed;
+    
 } */
 
+.top .topimg video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.top .con{
+    font-size: 5rem;
+    color: wheat;
+}
 .totpackages h1{
     display: flex;
     justify-content: center;
@@ -110,3 +142,4 @@
     margin: 3px;
     
 }
+
