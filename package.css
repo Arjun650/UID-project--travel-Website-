@@ -7,6 +7,7 @@
     outline: none;
     border: none;
     transition: all .2s linear;
+    
 }
 .top{
     min-height: 100vh;
@@ -16,9 +17,10 @@
     flex-flow: column;  
     position: relative; 
     z-index: 0;
+    top: 0;
 }
 
-/* .top #topimg{
+.top .topimg{
     position: absolute;
     top: 0;
     left: 0;
@@ -27,9 +29,10 @@
     width: 100%;
     object-fit: cover;
     
-} */
+}
 
-.top .topimg video{
+
+.swiper-slide img{
     position: absolute;
     top: 0;
     left: 0;
@@ -37,11 +40,9 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
-.top .con{
-    font-size: 5rem;
-    color: wheat;
-}
+} 
+
+
 .totpackages h1{
     display: flex;
     justify-content: center;
@@ -143,3 +144,25 @@
     
 }
 
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

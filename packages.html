@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <link
       rel="stylesheet"
@@ -47,36 +47,22 @@
       </form>
     </div>
 
-    <!-- top section starts here -->
-        <section class="top" id="top">
-          <div class="topimg">
-          <!-- <img src="/media_content/package1.jpg" alt="old person trekking" id="topimage"> -->
-          <video src="/media_content/vid3.mp4" autoplay muted loop></video>
-          </div>
-          <div class="con">
-            <h1>Get Seasonal Offers</h1>
-          </div>
-          <!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/media_content/gall3.jpeg" class="d-block w-100" alt="...">
-              </div> -->
-              <!-- <div class="carousel-item">
-                <img src="/media_content/pop3.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="/media_content/pro2.jpg" class="d-block w-100" alt="...">
-              </div> -->
-            <!-- </div> -->
-            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button> -->
-          <!-- </div> -->
+   <section class="top">
+        
+  <div class="swiper mySwiper topimg">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./media_content/ad1.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad2.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad3.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad4.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad5.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad6.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad7.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad1.jpg" alt="s"></div>
+      <div class="swiper-slide"><img src="./media_content/ad2.jpg" alt="s"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
         </section>
 
     <!-- top section ends here -->
@@ -375,7 +361,22 @@
       <h1 class="credit">created by <span>team travelo</span> | all rights reserved!</h1>
 </section>
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="Script.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
   </body>
 </html>

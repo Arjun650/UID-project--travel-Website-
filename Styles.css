@@ -803,6 +803,101 @@ header .icons i:hover{
     overflow-x: hidden;
 } */
 
+
+.swiper{
+    width: 950px;
+}
+.developers .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: orange;
+}
+ .developers .name-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.developers .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.developers .card{
+    /* position: relative; */
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 280px;
+    box-shadow: rgba(0 , 0 , 1 , 0.5);
+    
+}
+
+.developers .card::before{
+    content: "";
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    background: orange;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.developers .card .card-content{
+    padding: 30px;
+    /* padding-bottom: 5px ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.developers .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.developers .review{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.developers .card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.developers .card .rating i{
+    color: orange;
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media queries */
 @media(max-width:1000px){
    html{ font-size: 55%;

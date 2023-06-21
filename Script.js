@@ -75,6 +75,7 @@ function novalidate(){
 // return to home page 
 
 
+// for carosel
 
 
 
