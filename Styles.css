@@ -806,6 +806,9 @@ header .icons i:hover{
 
 .swiper{
     width: 950px;
+    /* z-index: 1  ; */
+    /* position: relative; */
+
 }
 .developers .card .image{
     height: 140px;
