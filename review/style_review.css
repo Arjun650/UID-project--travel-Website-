@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #b3d0da99;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+#testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.testimonial-heading {
+  letter-spacing: 1px;
+  margin: 50px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-heading h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  background-color: #202020;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.testimonial-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testimonial-box {
+  width: 480px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: center; */
+  object-fit: cover;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong {
+  color: #3d3d3d;
+  font-size: 1.55rem;
+  letter-spacing: 0.5px;
+}
+.name-user span {
+  color: #979797;
+  font-size: 1rem;
+}
+.reviews {
+  color: #f9d71c;
+}
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.customer-comment p {
+  font-size: 1.5rem;
+  color: #4b4b4b;
+}
+.testimonial-box:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+ @media (max-width: 1060px) { 
+  .testimonial-box {
+    width: 45%;
+    padding: 10px;
+  }
+}
+@media (max-width: 790px) {
+  .testimonial-box {
+    width: 100%;
+  }
+  .testimonial-heading h1 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 340px) {
+  .box-top {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .reviews {
+    margin-top: 10px;
+  }
+} 
+::selection {
+  color: #ffffff;
+  background-color: orange;
+}
+.post {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 80%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 145, 0),
+    rgb(255, 203, 99),
+    rgb(192, 124, 0)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+.yourcomment {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.yours {
+  margin: 0.6rem auto 0.2rem;
+  text-align: center;
+}
+.yours strong {
+  font-size: x-large;
+  font-weight: bolder;
+  text-shadow: #202020;
+  text-decoration: solid;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+textarea::placeholder {
+  text-align: center;
+  font-size: medium;
+}
+textarea {
+  resize: none;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  font-size: medium;
+}
+hr {
+  width: 70%;
+  align-self: center;
+  height: 1.8px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 20%;
+  margin: 5px;
+}
+
+#comment{
+  padding: 10px;
+}

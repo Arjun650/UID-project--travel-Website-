@@ -35,10 +35,9 @@ function validate(){
         var emp = document.querySelector("#noempty").innerHTML="! please fill the empty space"
     }
     else{
-        // var buttonlogin = document.querySelector("#buttonLogin")
-         window.open("index.html" , "_self");
-        // loginForm.classList.remove('active');
-        
+        // var buttonlogin = document.querySelector("#buttonLogin");
+        // buttonlogin.setAttribute("href","./index.html");
+        //  window.open("./index.html" , "_self");
     }
 }
 
@@ -75,6 +74,7 @@ function novalidate(){
 // return to home page 
 
 
+// for carosel
 
 
 
