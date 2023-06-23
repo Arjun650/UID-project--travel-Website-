@@ -108,6 +108,10 @@ body{
     outline: none;
     border: 1px solid black;
 }
+label .errorbtn{
+    color: red;
+    font-size: 10px;
+}
 .inputBox textarea{
     padding: 10px;
     font-size: 1.1em;
@@ -208,7 +212,14 @@ input[type=number]::-webkit-outer-spin-button {
     height: 100%;
 }
 
-
-
+label{
+    color: red;
+    display: flex;
+    /* margin-top: -1em; */
+    margin-top: 0.5em;
+    /* justify-content: center; */
+    align-items: center;
+    font-weight: 600;
+}
 
 

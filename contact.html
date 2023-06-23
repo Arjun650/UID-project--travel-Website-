@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css"/>
     <title>Contact Us</title>
+    <script src="./contact.js"></script>
 </head>
 <body>
     <!-- <header>
@@ -39,40 +40,45 @@
              <!--form-->
             <div class="contact form">
                 <h3>Send a message</h3>
-                <form>
+                <form action="#" id="myform">
                     <div class="formBox">
                         <div class="row50">
                             <div class="inputBox">
                                 <span>First Name</span>
-                                <input type="text" required placeholder="First Name"/>
+                                <input id="fname" type="text"  placeholder="First Name"/>
+                                <label class="errorbtn" id="fnameError"></label>
                             </div>
                             <div class="inputBox">
                                 <span>Last Name</span>
-                                <input type="text" required placeholder="Last Name"/>
+                                <input id="lname" type="text"  placeholder="Last Name"/>
+                                <label class="errorbtn" id="lnameError"></label>
                             </div>
                         </div>
 
                         <div class="row50">
                             <div class="inputBox">
                                 <span>Email Id</span>
-                                <input type="text" required placeholder="Enter Email Id"/>
+                                <input id="email" type="text"  placeholder="Enter Email Id"/>
+                                <label class="errorbtn" id="emailError"></label>
                             </div>
                             <div class="inputBox">
                                 <span>Mobile Number</span>
-                                <input type="number" required placeholder="Enter Mobile Number"/>
+                                <input id="number" type="number"  placeholder="Enter Mobile Number"/>
+                                <label class="errorbtn" id="numberError"></label>
                             </div>
                         </div>
 
                         <div class="row100">
                             <div class="inputBox">
                                 <span>Message</span>
-                                <textarea cols="25" rows="10" placeholder="Write Something...."></textarea>
+                                <textarea id="txtarea" cols="25" rows="10" placeholder="Write Something...."></textarea>
+                                <label class="errorbtn" id="txtareaError"></label>
                             </div>
                         </div>
 
                         <div class="row100">
                             <div class="inputBox">
-                                <input type="submit" value="Submit"/>
+                                <input type="submit" onclick="validate()" value="Submit"/>
                             </div>
                         </div>
                     </div>

@@ -1,15 +1,3 @@
-// function validate()
-// {
-    
-//     var username = document.querySelector("#fname");
-//     var emailId = document.querySelector("#emailId");
-
-//     if(username.value == "" || emailId.value == "")
-//     {
-//      document.querySelector(".error").innerHTML="! please fill the empty space"
-//     }
-  
-// }
 
 
 function validateForm() {
