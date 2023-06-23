@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Document</title>
+   
+</head>
+
+<body>
+    <h1 class="container">Welcome to Travelo!</h1>
+    <p id="header">Register Yourself</p>
+
+    <div class="box">
+
+        <form action="/" id="myform" name="myform">
+            <input type="text" class="inp1" name="fname" id="fname" placeholder="Enter Full Name" />
+            <label class="errorbtn" id="fnameError"></label>
+            <input type="email" class="inp" id="emailId" placeholder="Enter Email Address" />
+            <label class="errorbtn" id="emailError"></label>
+            <input type="number" class="inp" id="contact" placeholder="Enter Contact Number" />
+            <label class="errorbtn" id="contactError"></label>
+            <input type="password" class="inp" id="pw1" placeholder="Enter Password" />
+            <label class="errorbtn" id="pw1Error"></label>
+            <input type="password" class="inp" id="pw2" placeholder="Confirm Password" />
+            <label class="errorbtn" id="pw2Error"></label>
+            <div class="check">
+                <input type="checkbox" class="ctbox" id="cbox" value="terms">
+                <span>I agree to the Terms and the Conditions</span>
+            </div>
+            <input type="button" onclick="validateForm()" class="submit" value="Register" />
+            <p class="par">Already have an account?<a href="#"> Log in</a></p>
+            
+        </form>
+    </div>
+    <p class="log">Or</p>
+   <div class="login">
+    <div class="google-login-button">
+        <a href="https://github.com/login/oauth/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=YOUR_REDIRECT_URI&scope=SCOPE">
+        <i class="fa-brands fa-google"></i>
+        <span class="icon1">Login with Google</span>
+    </a>
+      </div>
+      <div class="github-login-button">
+      <a href="https://github.com/login/oauth/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=YOUR_REDIRECT_URI&scope=SCOPE">
+        <i class="fa-brands fa-github"></i>
+        <span class="icon2">Login with GitHub</span>
+      </a>
+    </div> 
+   </div>
+
+   <script src="registerscript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+body {
+    background: url(https://t4.ftcdn.net/jpg/01/90/10/03/240_F_190100397_SbErftTx5aMHImgkpXrbGBykR2XylPJ3.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    /* background-position: fixed; */
+
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 2.5em;
+    /* margin-top: 3em; */
+}
+
+ p{
+    text-align: center;
+    color: orange;
+    font-size: 1.5em;
+    margin-top: -1em;
+    margin-right: 6.5em;
+}
+
+.box {
+    margin: 0 auto;
+    /* background-color: aqua; */
+    width: 30vw;
+    height: auto;
+    /* background: url(https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGRhcmslMjBibGFjayUyMGNvbG9yJTIwYmFja2dyb3VuZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60 ) no-repeat; */
+    background-position: 2em;
+    margin-top: -2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* width: 50px; */
+    /* width: calc(20px-30vw); */
+    margin: 0 auto;
+
+
+}
+
+input {
+    margin-bottom: 2.5em;
+    width: 30vw;
+    align-items: center;
+    height: 4vh;
+    border-radius: 1em;
+    padding: 0.5em;
+    border: none;
+    margin-left: 6em;
+    width: 20vw;
+    outline: none;
+    padding-left: 19px;
+    /* margin-top: 2em; */
+}
+
+label .errorbtn{
+    color: red;
+    font-size: 12px;
+}
+
+.inp1 {
+    margin-top: 2.5em;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=checkbox] {
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+}
+
+span {
+    color: white;
+    font-weight: 500;
+    /* padding-bottom: 10vh; */
+    /* text-align: left; */
+}
+
+button {
+    width: 20vw;
+    height: 4vh;
+    margin-left: 5em;
+    font-size: 18px;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3em;
+    background-color: white;
+    color: orange;
+
+}
+
+.submit:hover {
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+form .par{
+    /* text-align: center; */
+    font-size: 18px;
+    /* padding: 10px; */
+    margin-left: 2em;
+    margin-right: 0.5em;
+    font-weight: 500;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+    /* margin-left: 1em; */
+}
+
+ .log{
+    padding-top: 10px;
+    margin-left: 7em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+    margin-top: 1px;
+   
+
+}
+ .login{
+    margin: 0 auto;
+    width: 10vw;
+    height: 10vh;
+    margin-bottom: 3em;
+    padding-bottom: 5px;
+    margin-top: -1em;
+}
+.login .google-login-button{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    border:1px solid white;
+    width: 14em;
+    margin-left: -2em;
+}
+.login .github-login-button{
+    display: block;
+    padding: 10px;
+    margin-bottom: 18px;
+    text-align: justify;
+    border:1px solid white;
+    width: 14em;
+    margin-left: -2em;
+}
+
+
+
+ .login .fa-brands {
+    font-size: 20px;
+    margin-right: 7px;
+}
+.login .icon1, .icon2{
+    font-size: 20px;
+} 
+.icon1:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.icon2:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+
+label{
+    color: red;
+    display: flex;
+    margin-top: -1em;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
