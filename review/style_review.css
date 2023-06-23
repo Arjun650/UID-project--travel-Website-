@@ -108,7 +108,7 @@ header {
   transform: translateY(-10px);
   transition: all ease 0.3s;
 }
-/* @media (max-width: 1060px) {
+ @media (max-width: 1060px) { 
   .testimonial-box {
     width: 45%;
     padding: 10px;
@@ -130,7 +130,7 @@ header {
   .reviews {
     margin-top: 10px;
   }
-} */
+} 
 ::selection {
   color: #ffffff;
   background-color: orange;
