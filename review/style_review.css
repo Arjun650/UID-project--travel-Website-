@@ -18,45 +18,7 @@ header {
   justify-content: space-between;
   padding: 2rem 9%;
 }
-#homeNav {
-  padding: 0.4rem 0.8rem;
-}
 
-#homeNav:hover {
-  color: orange;
-}
-header .logo {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-header .logo span {
-  color: orange;
-}
-header .navbar a {
-  color: #fff;
-  font-size: 2rem;
-  margin: 0 0.8rem;
-  text-decoration: none;
-}
-header .navbar a:hover {
-  color: orange;
-}
-header .icons i {
-  font-size: 2.5rem;
-  color: #fff;
-  cursor: pointer;
-  margin-right: 2rem;
-}
-
-header .icons i:hover {
-  color: orange;
-}
-a {
-  text-decoration: none;
-}
 #testimonials {
   display: flex;
   justify-content: center;
@@ -66,7 +28,7 @@ a {
 }
 .testimonial-heading {
   letter-spacing: 1px;
-  margin: 30px 0px;
+  margin: 50px 0px;
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
@@ -74,20 +36,13 @@ a {
   align-items: center;
 }
 .testimonial-heading h1 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   background-color: #202020;
   color: #ffffff;
   padding: 10px 20px;
 }
-.testimonial-heading span {
-  font-size: 1.3rem;
-  color: #252525;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
+
 .testimonial-box-container {
   display: flex;
   justify-content: center;
@@ -96,13 +51,13 @@ a {
   width: 100%;
 }
 .testimonial-box {
-  width: 500px;
+  width: 480px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   padding: 20px;
   margin: 15px;
   cursor: pointer;
-  border-radius: 16%;
+  border-radius: 5px;
 }
 .profile {
   display: flex;
@@ -119,7 +74,8 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  /* object-position: center; */
+  object-fit: cover;
 }
 
 .name-user {
@@ -128,12 +84,12 @@ a {
 }
 .name-user strong {
   color: #3d3d3d;
-  font-size: 1.1rem;
+  font-size: 1.55rem;
   letter-spacing: 0.5px;
 }
 .name-user span {
   color: #979797;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .reviews {
   color: #f9d71c;
@@ -145,14 +101,14 @@ a {
   margin-bottom: 20px;
 }
 .customer-comment p {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #4b4b4b;
 }
 .testimonial-box:hover {
   transform: translateY(-10px);
   transition: all ease 0.3s;
 }
-@media (max-width: 1060px) {
+/* @media (max-width: 1060px) {
   .testimonial-box {
     width: 45%;
     padding: 10px;
@@ -174,10 +130,10 @@ a {
   .reviews {
     margin-top: 10px;
   }
-}
+} */
 ::selection {
   color: #ffffff;
-  background-color: #252525;
+  background-color: orange;
 }
 .post {
   margin-left: auto;
@@ -186,15 +142,15 @@ a {
   width: 80%;
   background-image: linear-gradient(
     to bottom right,
-    rgb(232, 152, 232),
-    lightyellow,
-    lightgreen
+    rgb(255, 145, 0),
+    rgb(255, 203, 99),
+    rgb(192, 124, 0)
   );
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 5%;
-  border-radius: 20%;
+  border-radius: 10px;
   /* overflow: hidden; */
 }
 .yourcomment {
@@ -240,4 +196,8 @@ hr {
 button {
   width: 20%;
   margin: 5px;
+}
+
+#comment{
+  padding: 10px;
 }
