@@ -74,8 +74,12 @@ function novalidate(){
 // return to home page 
 
 
-// for carosel
+function openindex(){
+    window.open("packages.html" , "_self");
+}
 
 
+// whytravello 
 
 
+// whytravello ends here

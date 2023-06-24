@@ -61,9 +61,8 @@ header{
     background: #b3d0da99;
     backdrop-filter: blur(2px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-    z-index: 1;
+    z-index: 999 ;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     padding: 2rem 9%;
 }
@@ -92,7 +91,7 @@ header .logo span{
 }
 header .navbar a{
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0 .8rem;
     /* padding: 0 0.8rem; */
     text-decoration: none;
@@ -113,12 +112,13 @@ header .icons i:hover{
     color:var(--orange);
 }
 
+
 .login-form-container{
     position: fixed;
     top: -120%;
     /* top: 0; */
     left: 0;
-    z-index: 1;
+    z-index: 999;
     min-height:100vh;
     width: 100%;
     background: rgba(0, 0, 0, .7);
@@ -221,6 +221,8 @@ header .icons i:hover{
 .login-form-container #form-close:hover{
     color: var(--orange);
 }
+
+
 
 #menu-bar{
     color: #fff;
@@ -350,7 +352,7 @@ header .icons i:hover{
     border-bottom: 5px solid orange;
 
 } */
-.how-it-works{
+/* .how-it-works{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,7 +363,6 @@ header .icons i:hover{
     width: 100%;
     max-width: 900px;
     height: 350px;
-    /* background-color: #ffa600; */
     position: relative;
    
 }
@@ -395,7 +396,68 @@ header .icons i:hover{
     width: 140px;
     margin: 0 25px;
     border-radius: 5px;
+} */
+
+
+/* why travello  */
+
+.whytravello{
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    
 }
+.containerofkrishna {
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+
+  .containerofkrishna .container-title h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--orange);
+    margin: 15px;
+  }
+ 
+  .container-paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    
+    
+  }
+  .left-content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    width: 15em;
+
+  }
+  .left-content ul li{
+    cursor: pointer;
+    
+  }
+  .right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .right-content p{
+    width: 75%;
+  }
+/* why travello ends here */
 
 .packages{
     background-color: #ffeecb;
@@ -890,10 +952,21 @@ header .icons i:hover{
     margin: 0 2px;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
 
 
 
-
+.active-option {
+    width: auto;
+    padding: 12px;
+    height: 3em;
+    /* border: 2px solid black; */
+    font-weight: 600;
+    color: white;
+    background: orange;
+}
 
 
 
@@ -946,3 +1019,4 @@ header .icons i:hover{
         background: #222;
     }
 }
+
