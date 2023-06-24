@@ -54,4 +54,12 @@ function validateForm() {
     // Form validation passed, navigate to the index page
     window.location.href = 'index.html';
   }
+
+  function novalidate(){
+    document.getElementById('fnameError').textContent = '';
+    document.getElementById('emailError').textContent = '';
+    document.getElementById('contactError').textContent = '';
+    document.getElementById('pw1Error').textContent = '';
+    document.getElementById('pw2Error').textContent = '';
+  }
   

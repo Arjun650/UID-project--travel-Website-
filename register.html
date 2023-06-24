@@ -19,15 +19,15 @@
     <div class="box">
 
         <form action="/" id="myform" name="myform">
-            <input type="text" class="inp1" name="fname" id="fname" placeholder="Enter Full Name" />
+            <input type="text" onclick="novalidate()" class="inp1" name="fname" id="fname" placeholder="Enter Full Name" />
             <label class="errorbtn" id="fnameError"></label>
-            <input type="email" class="inp" id="emailId" placeholder="Enter Email Address" />
+            <input type="email"  onclick="novalidate()" class="inp" id="emailId" placeholder="Enter Email Address" />
             <label class="errorbtn" id="emailError"></label>
-            <input type="number" class="inp" id="contact" placeholder="Enter Contact Number" />
+            <input type="number"  onclick="novalidate()" class="inp" id="contact" placeholder="Enter Contact Number" />
             <label class="errorbtn" id="contactError"></label>
-            <input type="password" class="inp" id="pw1" placeholder="Enter Password" />
+            <input type="password"  onclick="novalidate()" class="inp" id="pw1" placeholder="Enter Password" />
             <label class="errorbtn" id="pw1Error"></label>
-            <input type="password" class="inp" id="pw2" placeholder="Confirm Password" />
+            <input type="password"  onclick="novalidate()" class="inp" id="pw2" placeholder="Confirm Password" />
             <label class="errorbtn" id="pw2Error"></label>
             <div class="check">
                 <input type="checkbox" class="ctbox" id="cbox" value="terms">

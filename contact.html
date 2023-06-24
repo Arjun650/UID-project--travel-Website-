@@ -45,12 +45,12 @@
                         <div class="row50">
                             <div class="inputBox">
                                 <span>First Name</span>
-                                <input id="fname" type="text"  placeholder="First Name"/>
+                                <input id="fname" onclick="novalidate()" type="text"  placeholder="First Name"/>
                                 <label class="errorbtn" id="fnameError"></label>
                             </div>
                             <div class="inputBox">
                                 <span>Last Name</span>
-                                <input id="lname" type="text"  placeholder="Last Name"/>
+                                <input id="lname" type="text" onclick="novalidate()"  placeholder="Last Name"/>
                                 <label class="errorbtn" id="lnameError"></label>
                             </div>
                         </div>
@@ -58,12 +58,12 @@
                         <div class="row50">
                             <div class="inputBox">
                                 <span>Email Id</span>
-                                <input id="email" type="text"  placeholder="Enter Email Id"/>
+                                <input id="email" type="text" onclick="novalidate()"  placeholder="Enter Email Id"/>
                                 <label class="errorbtn" id="emailError"></label>
                             </div>
                             <div class="inputBox">
                                 <span>Mobile Number</span>
-                                <input id="number" type="number"  placeholder="Enter Mobile Number"/>
+                                <input id="number" type="number" onclick="novalidate()"  placeholder="Enter Mobile Number"/>
                                 <label class="errorbtn" id="numberError"></label>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                         <div class="row100">
                             <div class="inputBox">
                                 <span>Message</span>
-                                <textarea id="txtarea" cols="25" rows="10" placeholder="Write Something...."></textarea>
+                                <textarea id="txtarea" onclick="novalidate()" cols="25" rows="10" placeholder="Write Something...."></textarea>
                                 <label class="errorbtn" id="txtareaError"></label>
                             </div>
                         </div>
