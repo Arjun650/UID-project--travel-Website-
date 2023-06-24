@@ -3,6 +3,8 @@
 :root{
     --orange:#ffa500;
     /* --orange:#345c00; */
+    --arjun :red;
+    --arjunn:green;
 }
 
 *{
@@ -20,6 +22,7 @@
 *::selection{
     background: var(--orange);
     color:#fff;
+    
 }
 
 html{
@@ -571,7 +574,7 @@ header .icons i:hover{
     padding: .5rem 0;
 }
 
-.review h1{
+.developers h1{
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -580,7 +583,7 @@ header .icons i:hover{
     margin: 15px;
 }
 
-.review .box-container{
+/* .review .box-container{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -626,7 +629,7 @@ header .icons i:hover{
     padding: 1rem;
     color: var(--orange);
     font-size: 1.5rem;
-}
+} */
 
 #knowmore{
     display: flex;
