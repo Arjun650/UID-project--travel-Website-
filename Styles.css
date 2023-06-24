@@ -403,7 +403,7 @@ header .icons i:hover{
 
 .whytravello{
     margin: 0;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #fff;
     
 }
@@ -414,11 +414,9 @@ header .icons i:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    
   }
 
-  .containerofkrishna .container-title h1{
+  .container-title h1{
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -432,10 +430,9 @@ header .icons i:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    
-    
+    font-size: 1.6rem;
   }
+
   .left-content ul {
     list-style: none;
     display: flex;
@@ -446,16 +443,16 @@ header .icons i:hover{
   }
   .left-content ul li{
     cursor: pointer;
-    
   }
+  
   .right-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
+
   .right-content p{
-    width: 75%;
+    width: 70%;
   }
 /* why travello ends here */
 
@@ -966,6 +963,7 @@ header .icons i:hover{
     font-weight: 600;
     color: white;
     background: orange;
+    transition: all 0.2s ease-in;
 }
 
 
