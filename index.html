@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <!-- <link rel="icon" type="image/x-icon" href="/media_content/gall1.jpg"> -->
+    <link rel="icon" type="image/x-icon" href="/media_content/gall1.jpg">
     <link rel="stylesheet" href="./Styles.css" >
     
     
@@ -42,8 +42,8 @@
       <i class="fa-sharp fa-solid fa-circle-xmark" id="form-close"></i>
       <form action="./index.html">
         <h3>login</h3>
-        <input type="email" class="box" id="emaill" onclick="validat()" placeholder="Your Email" />
-        <input type="password" class="box" id="pass" onclick="validat()" placeholder="Your Password" />
+        <input type="email" class="box" id="emaill" onclick="validat()" placeholder="Your Email" required />
+        <input type="password" class="box" id="pass" onclick="validat()" placeholder="Your Password" required />
         <p id="noempty"></p>
         <input type="Submit" value="login now" class="btn" onclick="validate()" id="buttonLogin" />
         <input type="checkbox" id="remember" />
@@ -720,6 +720,11 @@
       slidesPerView: 3,
       centeredSlides: true,
       loop: true,
+      autoplay: 
+    {
+      delay: 2000,
+    } , 
+
       spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",

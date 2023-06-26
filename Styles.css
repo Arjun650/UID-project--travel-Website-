@@ -162,7 +162,7 @@ header .icons i:hover{
 .login-form-container form .box:focus{
     border-color: var(--orange);
     /* box-shadow: 0 10px 20px rgba(0,0,0,0.15); */
-    box-shadow: 0 2px 4px var(--orange);
+    box-shadow: 0 1px 4px var(--orange);
 
      
 }
@@ -404,7 +404,7 @@ header .icons i:hover{
 .whytravello{
     margin: 0;
     /* padding: 10px; */
-    background-color: #fff;
+    background-color: #ffeecb;
     
 }
 .containerofkrishna {
@@ -452,7 +452,8 @@ header .icons i:hover{
   }
 
   .right-content p{
-    width: 70%;
+    width: 50%;
+    margin-right: 30%;
   }
 /* why travello ends here */
 
