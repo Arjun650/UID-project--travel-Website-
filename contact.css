@@ -8,19 +8,19 @@
     /* font-weight: 200; */
 }
 body{
-    background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
+    background: linear-gradient(90deg, orange 0%, rgb(203, 151, 54) 30%, rgb(249, 199, 105) 30%, rgb(255, 202, 103) 100%);
 }
 
 .logo svg {
     width: 44px;
     height: 44px;
     margin: 1em;
-    fill: rgb(234, 178, 75);    
+    fill: rgb(20, 13, 0);    
 }
 
 .logo svg:hover{
     cursor: pointer;
-    fill: orange;
+    fill: rgb(146, 96, 2);
     transition: all 0.5s ease-in;
 }
 
@@ -148,7 +148,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* Contact Info*/
 .info{
-    background: #012039;
+    background: orange;
 
 }
 .info h3{
@@ -166,7 +166,7 @@ input[type=number]::-webkit-outer-spin-button {
     min-width: 40px;
     height: 40px;
     color: white;
-    background-color: #03a9f5;
+    background-color: rgb(253, 187, 66);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,4 +225,35 @@ label{
     font-weight: 600;
 }
 
+/* developers  */
+.swiper  h1{
+text-align: center;
+color: orange;
+margin-bottom: 20px;
+font-weight: 400;
+font-size: 2rem;
+}
 
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+/* developers  */
+#developers{
+    background-color: antiquewhite;
+}

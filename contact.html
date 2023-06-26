@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="contact.css"/>
     <title>Contact Us</title>
     <script src="./contact.js"></script>
@@ -119,11 +120,61 @@
             </div>
         </div>
     </div>
+
+    <section id="developers">
+         <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <h1>Our Developers</h1>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./media_content/pro1.jpg" />
+        
+      </div>
+      <div class="swiper-slide">
+        <div>
+        <img src="./media_content/pro2.jpg" />
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./media_content/pro1.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./media_content/pro4.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./media_content/pro3.jpg" />
+      </div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+    </section>
+
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop:"true",
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 
 </body>
 </html>

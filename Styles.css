@@ -482,7 +482,7 @@ header .icons i:hover{
     overflow: hidden;
     box-shadow: 0 1rem 2rem rgba(0 , 0 , 0 , 0.1);
     position: relative;
-    height: 62rem;
+    height: 68rem;
 }
 
 .packages .box-container .box img{
@@ -522,6 +522,7 @@ header .icons i:hover{
     margin-bottom: 5px;
     bottom: 2px;
     position: absolute;
+    margin-left: 100px;
 }
 #buttonExploreMore{
     display: flex;
