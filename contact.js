@@ -15,35 +15,38 @@ const txtarea = document.getElementById('txtarea').value;
 
     if (fname.trim() === '') {
         document.getElementById("fnameError").textContent = 'First Name is Required';
-        return
+        return;
     }
     
 
 
 
-    if (lname.trim() === '') {
+    else if (lname.trim() === '') {
         document.getElementById("lnameError").textContent = 'Last Name is Required'
         return;
     }
 
 
 
-    if (email.trim() === '') {
+    else if (email.trim() === '') {
         document.getElementById("emailError").textContent = 'Email Id is Required';
         return;
     }
 
 
 
-    if (number.trim() === '') {
+    else if (number.trim() === '') {
         document.getElementById("numberError").textContent = 'Mobile Number is Required';
         return;
     }
 
 
-    if (txtarea.trim() === '') {
+    else if (txtarea.trim() === '') {
         document.getElementById("txtareaError").textContent = 'Message is Required';
         return;
+    }
+    else{
+        window.open("./index.html","_self");
     }
 }
 
