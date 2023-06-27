@@ -225,35 +225,97 @@ label{
     font-weight: 600;
 }
 
-/* developers  */
-.swiper  h1{
-text-align: center;
-color: orange;
-margin-bottom: 20px;
-font-weight: 400;
-font-size: 2rem;
-}
 
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-  }
-
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 300px;
-  }
-/* developers  */
 #developers{
     background-color: antiquewhite;
+}
+
+#developers h1{
+    text-align: center;
+    color: orange;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+
+.swiper{
+    width: 950px;
+
+    /* position: relative; */
+
+}
+.developers .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: orange;
+}
+ .developers .name-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.developers .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.developers .card{
+    /* position: relative; */
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 280px;
+    
+    
+}
+
+.developers .card::before{
+    content: "";
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    background: orange;
+    border-radius: 20px 20px 0 0 ;
+    
+}
+
+.developers .card .card-content{
+    padding: 30px;
+    /* padding-bottom: 5px ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.developers .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.developers .review{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.developers .card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+
+
+#contacts i{
+    font-size: 20px;
+    margin: 5px;
+    color: rgb(218, 0, 145);
 }
