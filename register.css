@@ -81,6 +81,10 @@ input[type=checkbox] {
     line-height: normal;
     width: 20px;
     height: 20px;
+    cursor: pointer;
+}
+input[type=button]{
+    cursor: pointer;
 }
 
 span {
