@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           overflow: hidden;
+            
+        }
+        #img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            position: relative;
+        }
+        .home{
+            position: absolute;
+            font-size: 3rem;
+            padding: 2rem;
+            z-index: 999;
+            
+        }
+        a{
+            color: red;
+        }
+        .home a:hover{
+            color: orange;
+        }
+        #img img{
+            object-fit: cover;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+       <a href="./index.html"> <i class="fa-solid fa-house"></i></a>
+    </div>
+    <div id="img">
+       <img src="./media_content/png-transparent-architectural-engineering-graphy-work-in-progress-angle-building-text-PhotoRoom.png-PhotoRoom.png" alt="">
+    </div>
+
+</body>
+</html>

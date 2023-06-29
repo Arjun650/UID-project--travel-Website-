@@ -162,7 +162,7 @@ header .icons i:hover{
 .login-form-container form .box:focus{
     border-color: var(--orange);
     /* box-shadow: 0 10px 20px rgba(0,0,0,0.15); */
-    box-shadow: 0 2px 4px var(--orange);
+    box-shadow: 0 1px 4px var(--orange);
 
      
 }
@@ -404,7 +404,7 @@ header .icons i:hover{
 .whytravello{
     margin: 0;
     /* padding: 10px; */
-    background-color: #fff;
+    background-color: #ffeecb;
     
 }
 .containerofkrishna {
@@ -452,7 +452,7 @@ header .icons i:hover{
   }
 
   .right-content p{
-    width: 70%;
+    width: 60%;
   }
 /* why travello ends here */
 
@@ -481,6 +481,8 @@ header .icons i:hover{
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0 1rem 2rem rgba(0 , 0 , 0 , 0.1);
+    position: relative;
+    height: 68rem;
 }
 
 .packages .box-container .box img{
@@ -508,14 +510,19 @@ header .icons i:hover{
     font-size: 1.7rem;
     color: #666;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .packages .box-container .box .button{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     padding-bottom: 15px;
     margin-bottom: 5px;
-    /* position: absolute; */
+    bottom: 2px;
+    position: absolute;
+    margin-left: 100px;
 }
 #buttonExploreMore{
     display: flex;
@@ -586,7 +593,7 @@ header .icons i:hover{
 .gallary .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1.6rem;
 }
 
 .gallary .box-container .box{
@@ -624,13 +631,16 @@ header .icons i:hover{
 
 .gallary .box-container .box .content h3{
     font-size: 2.5rem;
+    letter-spacing: 2px;
     color: var(--orange);
 }
 
 .gallary .box-container .box .content p{
     font-size: 1.5rem;
-    color: #eee;
+    /* color: #eee; */
+    color: #75e876;
     padding: .5rem 0;
+    font-weight: bolder;
 }
 
 .developers h1{

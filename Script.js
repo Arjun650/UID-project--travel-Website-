@@ -37,7 +37,7 @@ function validate(){
     else{
         // var buttonlogin = document.querySelector("#buttonLogin");
         // buttonlogin.setAttribute("href","./index.html");
-        //  window.open("./index.html" , "_self");
+         window.open("./index.html" , "_self");
     }
 }
 
